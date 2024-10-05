@@ -47,6 +47,17 @@ header a {
     border-bottom: 1px solid #252525;
 }
 
+/* navbar style with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0px;
+    padding: 0 1rem;
+    box-shadow: 0 2px 15px #3a3a3a;
+    display: none;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
