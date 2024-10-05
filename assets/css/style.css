@@ -1,0 +1,25 @@
+/* ta bort deafault browsers */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: blue;
+}
+
+/* Main content */
+
+main {
+    background-color: red;
+}
+
+/* Footer */
+
+footer {
+    background-color: purple;
+}
