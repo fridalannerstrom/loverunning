@@ -118,9 +118,32 @@ main {
 
 /* Reasons */
 
-section #reasons h2 {
+#reasons {
+margin: auto;
+width: 90%;
+    }
+
+#reasons h2 {
 font-size: 280%;
+margin: 20px 0;
+text-align: center;
 }
+
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits div {
+    margin-bottom: 20px;
+}
+
+
 
 /* Footer */
 
