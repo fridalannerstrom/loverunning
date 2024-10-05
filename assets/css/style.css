@@ -17,6 +17,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* headings */
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525; 
+}
+
 /* header */
 
 header {
@@ -81,15 +90,22 @@ nav {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
 }
 
-/* headings */
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute; 
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525; 
+#cover-text > h2, #cover-text > h3 {
+    color: white;
 }
 
 /* Main content */
@@ -148,6 +164,13 @@ main {
     
     main {
         margin-top: 79px;
+    }
+
+    /* hero section */
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
