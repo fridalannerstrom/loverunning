@@ -116,6 +116,12 @@ main {
     background-color: white;
 }
 
+/* Reasons */
+
+section #reasons h2 {
+font-size: 280%;
+}
+
 /* Footer */
 
 #social-networks {
