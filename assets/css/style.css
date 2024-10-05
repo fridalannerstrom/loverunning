@@ -1,9 +1,16 @@
 /* ta bort deafault browsers */
-
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
 }
 
 /* header */
@@ -16,6 +23,7 @@ header {
 
 main {
     background-color: red;
+    flex: 1 0 auto;
 }
 
 /* Footer */
